@@ -1,0 +1,1 @@
+alias proj="start-project"

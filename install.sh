@@ -32,7 +32,8 @@ backup_and_link ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
 backup_and_link ~/dotfiles/nvim ~/.config/nvim
 
 #Link shell config
-# backup_and_link ~/dotfiles/shell/zshrc ~/.zshrc
+backup_and_link ~/dotfiles/shell/zshrc ~/.zshrc
+chmod +x ~/dotfiles/scripts/*
 
 # Link git config
 # backup_and_link ~/dotfiles/git/gitconfig ~/.gitconfig
