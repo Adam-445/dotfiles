@@ -1,1 +1,1 @@
-alias proj="start-project"
+alias start-project="start-project.sh"

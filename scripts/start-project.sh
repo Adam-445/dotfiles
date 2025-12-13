@@ -10,11 +10,11 @@ PROJECT_NAME=$1
 PROJECT_PATH=$2
 
 if [ -z "$PROJECT_NAME" ] || [ -z "$PROJECT_PATH" ]; then
-  echo -e "${RED}Usage:${NC} start-project.sh <name> <path>"
+  echo -e "${RED}Usage:${NC} start-project <name> <path>"
   echo ""
   echo "Examples:"
-  echo "  start-project.sh myapp /path/to/project"
-  echo "  start-project.sh myapp .                # Use current directory"
+  echo "  start-project myapp /path/to/project"
+  echo "  start-project myapp .                # Use current directory"
   exit 1
 fi
 
