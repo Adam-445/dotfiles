@@ -4,7 +4,7 @@ My personal development environment configuration.
 
 ## Quick Start
 ```bash
-git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
+git clone https://github.com/Adam-445/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./install.sh
 ```
