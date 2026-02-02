@@ -28,7 +28,7 @@ backup_and_link() {
 # Link tmux config
 backup_and_link ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
 
-# Link nvim config (So i can version control it too)
+# Link nvim config
 backup_and_link ~/dotfiles/nvim ~/.config/nvim
 
 #Link shell config
