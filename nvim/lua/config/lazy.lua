@@ -29,16 +29,16 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.yaml" },
     { import = "lazyvim.plugins.extras.lang.docker" },
 
+    -- UI improvements
+    { import = "lazyvim.plugins.extras.ui.edgy" },
+    { import = "lazyvim.plugins.extras.ui.treesitter-context" },
+
     -- editor enhancements
     { import = "lazyvim.plugins.extras.editor.aerial" },
     { import = "lazyvim.plugins.extras.editor.illuminate" },
 
     -- coding tools
     { import = "lazyvim.plugins.extras.coding.yanky" },
-
-    -- UI improvements
-    { import = "lazyvim.plugins.extras.ui.edgy" },
-    { import = "lazyvim.plugins.extras.ui.treesitter-context" },
 
     -- import/override with your plugins
     { import = "plugins" },
