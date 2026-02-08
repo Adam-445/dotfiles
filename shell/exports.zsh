@@ -7,7 +7,6 @@ export VISUAL='nvim'
 # Path additions
 export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 export PATH="$HOME/dotfiles/scripts:$PATH"
-export PATH="$PATH:$(go env GOPATH)/bin"
 
 # SDKMAN
 export SDKMAN_DIR="$HOME/.sdkman"
