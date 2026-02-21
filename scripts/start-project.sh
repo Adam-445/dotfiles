@@ -41,8 +41,7 @@ tmux has-session -t "$PROJECT_NAME" 2>/dev/null
 
 if [ $? != 0 ]; then
   # Session doesnt exist, create it,
-  # and open nvim in the first window
-  tmux new-session -d -s "$PROJECT_NAME" -c "$PROJECT_PATH" -n editor "nvim"
+  tmux new-session -d -s "$PROJECT_NAME" -c "$PROJECT_PATH" -n editor
 
   # Window 2: Shell
   tmux new-window -t "$PROJECT_NAME:2" -n "shell" -c "$PROJECT_PATH"
