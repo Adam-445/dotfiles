@@ -24,9 +24,10 @@ backup_and_link() {
   ln -sf "$source" "$target"
   echo -e "${GREEN}Linked $source -> $target${NC}"
 }
-
-# Link tmux config
-backup_and_link ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
+#
+# creates a real file with a source directive
+echo "source-file ~/dotfiles/tmux/tmux.conf" >~/.tmux.conf
+echo "Linked tmux config via source-file"ackup_and_link ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
 
 # Link nvim config
 backup_and_link ~/dotfiles/nvim ~/.config/nvim
